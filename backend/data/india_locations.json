@@ -1,0 +1,88 @@
+{
+  "Andhra Pradesh": {
+    "Anantapur": [
+      "Anantapur",
+      "Gooty",
+      "Tadipatri"
+    ],
+    "Chittoor": [
+      "Chittoor",
+      "Tirupati",
+      "Madanapalle"
+    ]
+  },
+  "Delhi": {
+    "New Delhi": [
+      "Connaught Place",
+      "Karol Bagh",
+      "Saket"
+    ],
+    "South Delhi": [
+      "Hauz Khas",
+      "Mehrauli"
+    ]
+  },
+  "Karnataka": {
+    "Bengaluru Urban": [
+      "Bengaluru",
+      "Whitefield",
+      "Yelahanka"
+    ],
+    "Mysuru": [
+      "Mysuru",
+      "Nanjangud"
+    ]
+  },
+  "Maharashtra": {
+    "Mumbai": [
+      "Andheri",
+      "Borivali",
+      "Dadar"
+    ],
+    "Pune": [
+      "Pune",
+      "Hinjewadi",
+      "Kothrud"
+    ],
+    "Nagpur": [
+      "Nagpur",
+      "Wardha"
+    ]
+  },
+  "Tamil Nadu": {
+    "Chennai": [
+      "Chennai",
+      "T Nagar",
+      "Velachery"
+    ],
+    "Coimbatore": [
+      "Coimbatore",
+      "Pollachi"
+    ]
+  },
+  "Uttar Pradesh": {
+    "Lucknow": [
+      "Lucknow",
+      "Gomti Nagar"
+    ],
+    "Varanasi": [
+      "Varanasi",
+      "Sarnath"
+    ],
+    "Kanpur": [
+      "Kanpur",
+      "Kalyanpur"
+    ]
+  },
+  "West Bengal": {
+    "Kolkata": [
+      "Kolkata",
+      "Salt Lake",
+      "Howrah"
+    ],
+    "Darjeeling": [
+      "Darjeeling",
+      "Kurseong"
+    ]
+  }
+}
