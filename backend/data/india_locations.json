@@ -1,88 +1,454 @@
 {
   "Andhra Pradesh": {
-    "Anantapur": [
-      "Anantapur",
-      "Gooty",
-      "Tadipatri"
-    ],
-    "Chittoor": [
-      "Chittoor",
-      "Tirupati",
-      "Madanapalle"
-    ]
+    "districts": {
+      "Anantapur": [
+        "Anantapur",
+        "Hindupur",
+        "Dharmavaram"
+      ],
+      "Chittoor": [
+        "Chittoor",
+        "Tirupati",
+        "Madanapalle"
+      ],
+      "East Godavari": [
+        "Rajahmundry",
+        "Kakinada",
+        "Amalapuram"
+      ],
+      "Guntur": [
+        "Guntur",
+        "Tenali",
+        "Narasaraopet"
+      ]
+    }
   },
-  "Delhi": {
-    "New Delhi": [
-      "Connaught Place",
-      "Karol Bagh",
-      "Saket"
-    ],
-    "South Delhi": [
-      "Hauz Khas",
-      "Mehrauli"
-    ]
+  "Arunachal Pradesh": {
+    "districts": {
+      "Itanagar": [
+        "Itanagar",
+        "Naharlagun"
+      ],
+      "Tawang": [
+        "Tawang Town"
+      ],
+      "Ziro": [
+        "Ziro"
+      ]
+    }
+  },
+  "Assam": {
+    "districts": {
+      "Kamrup Metropolitan": [
+        "Guwahati",
+        "Dispur"
+      ],
+      "Dibrugarh": [
+        "Dibrugarh Town"
+      ],
+      "Silchar": [
+        "Silchar"
+      ]
+    }
+  },
+  "Bihar": {
+    "districts": {
+      "Patna": [
+        "Patna",
+        "Danapur",
+        "Masaurhi"
+      ],
+      "Gaya": [
+        "Gaya",
+        "Bodh Gaya",
+        "Sherghati"
+      ],
+      "Bhagalpur": [
+        "Bhagalpur",
+        "Kahalgaon"
+      ]
+    }
+  },
+  "Chhattisgarh": {
+    "districts": {
+      "Raipur": [
+        "Raipur",
+        "Naya Raipur"
+      ],
+      "Bilaspur": [
+        "Bilaspur"
+      ],
+      "Durg": [
+        "Durg",
+        "Bhilai"
+      ]
+    }
+  },
+  "Goa": {
+    "districts": {
+      "North Goa": [
+        "Panaji",
+        "Mapusa"
+      ],
+      "South Goa": [
+        "Margao",
+        "Vasco da Gama"
+      ]
+    }
+  },
+  "Gujarat": {
+    "districts": {
+      "Ahmedabad": [
+        "Ahmedabad City",
+        "Gandhinagar"
+      ],
+      "Surat": [
+        "Surat City"
+      ],
+      "Vadodara": [
+        "Vadodara City"
+      ]
+    }
+  },
+  "Haryana": {
+    "districts": {
+      "Gurgaon": [
+        "Gurgaon City",
+        "Manesar"
+      ],
+      "Faridabad": [
+        "Faridabad City"
+      ],
+      "Panipat": [
+        "Panipat City"
+      ]
+    }
+  },
+  "Himachal Pradesh": {
+    "districts": {
+      "Shimla": [
+        "Shimla City"
+      ],
+      "Kangra": [
+        "Dharamshala"
+      ],
+      "Mandi": [
+        "Mandi Town"
+      ]
+    }
+  },
+  "Jharkhand": {
+    "districts": {
+      "Ranchi": [
+        "Ranchi City"
+      ],
+      "Jamshedpur": [
+        "Jamshedpur"
+      ],
+      "Dhanbad": [
+        "Dhanbad"
+      ]
+    }
   },
   "Karnataka": {
-    "Bengaluru Urban": [
-      "Bengaluru",
-      "Whitefield",
-      "Yelahanka"
-    ],
-    "Mysuru": [
-      "Mysuru",
-      "Nanjangud"
-    ]
+    "districts": {
+      "Bengaluru": [
+        "Bengaluru Urban",
+        "Whitefield",
+        "Yelahanka"
+      ],
+      "Mysuru": [
+        "Mysuru City",
+        "Nanjangud"
+      ],
+      "Mangaluru": [
+        "Mangaluru City",
+        "Udupi"
+      ]
+    }
+  },
+  "Kerala": {
+    "districts": {
+      "Thiruvananthapuram": [
+        "Thiruvananthapuram City"
+      ],
+      "Kochi": [
+        "Kochi City"
+      ],
+      "Kozhikode": [
+        "Kozhikode City"
+      ]
+    }
+  },
+  "Madhya Pradesh": {
+    "districts": {
+      "Bhopal": [
+        "Bhopal City"
+      ],
+      "Indore": [
+        "Indore City"
+      ],
+      "Gwalior": [
+        "Gwalior City"
+      ]
+    }
   },
   "Maharashtra": {
-    "Mumbai": [
-      "Andheri",
-      "Borivali",
-      "Dadar"
-    ],
-    "Pune": [
-      "Pune",
-      "Hinjewadi",
-      "Kothrud"
-    ],
-    "Nagpur": [
-      "Nagpur",
-      "Wardha"
-    ]
+    "districts": {
+      "Mumbai": [
+        "Andheri",
+        "Borivali",
+        "Dadar"
+      ],
+      "Pune": [
+        "Pune City",
+        "Hadapsar",
+        "Shivajinagar"
+      ],
+      "Nagpur": [
+        "Nagpur City",
+        "Kamptee"
+      ]
+    }
+  },
+  "Manipur": {
+    "districts": {
+      "Imphal West": [
+        "Imphal City"
+      ],
+      "Thoubal": [
+        "Thoubal Town"
+      ]
+    }
+  },
+  "Meghalaya": {
+    "districts": {
+      "East Khasi Hills": [
+        "Shillong"
+      ],
+      "West Garo Hills": [
+        "Tura"
+      ]
+    }
+  },
+  "Mizoram": {
+    "districts": {
+      "Aizawl": [
+        "Aizawl City"
+      ],
+      "Lunglei": [
+        "Lunglei Town"
+      ]
+    }
+  },
+  "Nagaland": {
+    "districts": {
+      "Kohima": [
+        "Kohima City"
+      ],
+      "Dimapur": [
+        "Dimapur City"
+      ]
+    }
+  },
+  "Odisha": {
+    "districts": {
+      "Bhubaneswar": [
+        "Bhubaneswar City"
+      ],
+      "Cuttack": [
+        "Cuttack City"
+      ],
+      "Puri": [
+        "Puri Town"
+      ]
+    }
+  },
+  "Punjab": {
+    "districts": {
+      "Amritsar": [
+        "Amritsar City"
+      ],
+      "Ludhiana": [
+        "Ludhiana City"
+      ],
+      "Jalandhar": [
+        "Jalandhar City"
+      ]
+    }
+  },
+  "Rajasthan": {
+    "districts": {
+      "Jaipur": [
+        "Jaipur City"
+      ],
+      "Udaipur": [
+        "Udaipur City"
+      ],
+      "Jodhpur": [
+        "Jodhpur City"
+      ]
+    }
+  },
+  "Sikkim": {
+    "districts": {
+      "East Sikkim": [
+        "Gangtok"
+      ],
+      "South Sikkim": [
+        "Namchi"
+      ]
+    }
   },
   "Tamil Nadu": {
-    "Chennai": [
-      "Chennai",
-      "T Nagar",
-      "Velachery"
-    ],
-    "Coimbatore": [
-      "Coimbatore",
-      "Pollachi"
-    ]
+    "districts": {
+      "Chennai": [
+        "Chennai City"
+      ],
+      "Coimbatore": [
+        "Coimbatore City"
+      ],
+      "Madurai": [
+        "Madurai City"
+      ]
+    }
+  },
+  "Telangana": {
+    "districts": {
+      "Hyderabad": [
+        "Hyderabad City",
+        "Secunderabad"
+      ],
+      "Warangal": [
+        "Warangal City"
+      ],
+      "Nizamabad": [
+        "Nizamabad City"
+      ]
+    }
+  },
+  "Tripura": {
+    "districts": {
+      "West Tripura": [
+        "Agartala"
+      ]
+    }
   },
   "Uttar Pradesh": {
-    "Lucknow": [
-      "Lucknow",
-      "Gomti Nagar"
-    ],
-    "Varanasi": [
-      "Varanasi",
-      "Sarnath"
-    ],
-    "Kanpur": [
-      "Kanpur",
-      "Kalyanpur"
-    ]
+    "districts": {
+      "Lucknow": [
+        "Lucknow City"
+      ],
+      "Kanpur": [
+        "Kanpur City"
+      ],
+      "Varanasi": [
+        "Varanasi City"
+      ]
+    }
+  },
+  "Uttarakhand": {
+    "districts": {
+      "Dehradun": [
+        "Dehradun City"
+      ],
+      "Haridwar": [
+        "Haridwar City"
+      ],
+      "Nainital": [
+        "Nainital Town"
+      ]
+    }
   },
   "West Bengal": {
-    "Kolkata": [
-      "Kolkata",
-      "Salt Lake",
-      "Howrah"
-    ],
-    "Darjeeling": [
-      "Darjeeling",
-      "Kurseong"
-    ]
+    "districts": {
+      "Kolkata": [
+        "Kolkata City"
+      ],
+      "Darjeeling": [
+        "Darjeeling Town"
+      ],
+      "Howrah": [
+        "Howrah City"
+      ]
+    }
+  },
+  "Andaman and Nicobar Islands": {
+    "districts": {
+      "South Andaman": [
+        "Port Blair"
+      ]
+    }
+  },
+  "Chandigarh": {
+    "districts": {
+      "Chandigarh": [
+        "Chandigarh City"
+      ]
+    }
+  },
+  "Dadra and Nagar Haveli and Daman and Diu": {
+    "districts": {
+      "Daman": [
+        "Daman Town"
+      ],
+      "Silvassa": [
+        "Silvassa Town"
+      ]
+    }
+  },
+  "Delhi": {
+    "districts": {
+      "New Delhi": [
+        "Connaught Place",
+        "Chanakyapuri"
+      ],
+      "North Delhi": [
+        "Model Town",
+        "Civil Lines"
+      ],
+      "South Delhi": [
+        "Saket",
+        "Hauz Khas",
+        "Mehrauli"
+      ]
+    }
+  },
+  "Jammu and Kashmir": {
+    "districts": {
+      "Srinagar": [
+        "Srinagar City"
+      ],
+      "Jammu": [
+        "Jammu City"
+      ]
+    }
+  },
+  "Ladakh": {
+    "districts": {
+      "Leh": [
+        "Leh Town"
+      ],
+      "Kargil": [
+        "Kargil Town"
+      ]
+    }
+  },
+  "Lakshadweep": {
+    "districts": {
+      "Kavaratti": [
+        "Kavaratti Town"
+      ]
+    }
+  },
+  "Puducherry": {
+    "districts": {
+      "Puducherry": [
+        "Puducherry City"
+      ],
+      "Karaikal": [
+        "Karaikal Town"
+      ]
+    }
   }
 }
