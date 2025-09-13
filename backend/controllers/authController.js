@@ -2,29 +2,24 @@ const User = require('../models/User');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
-// REGISTER
+// REGISTER (No changes needed here)
 const register = async (req, res) => {
   try {
     const { fullname, email, phone, password, serviceLocations } = req.body;
 
-    // Check required fields
     if (!fullname || !email || !phone || !password) {
       return res.status(400).json({ message: 'Missing required fields' });
     }
 
-    // Make serviceLocations mandatory
     if (!serviceLocations || !Array.isArray(serviceLocations) || serviceLocations.length === 0) {
       return res.status(400).json({ message: 'At least one location is required' });
     }
 
-    // Check if email already exists
     const existing = await User.findOne({ email });
     if (existing) return res.status(400).json({ message: 'Email already registered' });
 
-    // Hash password
     const hashed = await bcrypt.hash(password, 10);
 
-    // Create user
     const user = new User({
       fullname,
       email,
@@ -42,7 +37,7 @@ const register = async (req, res) => {
   }
 };
 
-// LOGIN
+// LOGIN (Updated with specific error messages)
 const login = async (req, res) => {
   try {
     const { email, password } = req.body;
@@ -50,10 +45,12 @@ const login = async (req, res) => {
     if (!email || !password) return res.status(400).json({ message: 'Missing credentials' });
 
     const user = await User.findOne({ email });
-    if (!user) return res.status(400).json({ message: 'Invalid credentials' });
+    // CHANGE 1: Return a specific "user not found" message with a 404 status.
+    if (!user) return res.status(404).json({ message: 'User not found.' });
 
     const ok = await bcrypt.compare(password, user.password);
-    if (!ok) return res.status(400).json({ message: 'Invalid credentials' });
+    // CHANGE 2: Return a specific "incorrect password" message with a 401 status.
+    if (!ok) return res.status(401).json({ message: 'Incorrect password. Please try again.' });
 
     const token = jwt.sign(
       { id: user._id },
